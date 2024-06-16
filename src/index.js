@@ -8,7 +8,7 @@ import "bootstrap/dist/js/bootstrap.bundle.min.js";
 import "./styles/style.css";
 import "bootstrap-icons/font/bootstrap-icons.css";
 import axios from "axios";
-import reportWebVitals from './reportWebVitals'
+import reportWebVitals from './reportWebVitals';
 
 axios.defaults.withCredentials = true;
 
