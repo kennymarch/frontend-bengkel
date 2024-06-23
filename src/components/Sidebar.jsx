@@ -25,6 +25,18 @@ const Sidebar = () => {
               Dashboard
             </NavLink>
           </li>
+          <li className="nav-item link__pages">
+            <NavLink to="/pemesanan" className="nav-link fs-6">
+              <i class="bi bi-wrench-adjustable"></i>
+              Pemesanan
+            </NavLink>
+          </li>
+          <li className="nav-item link__pages">
+            <NavLink to="/kustom-selesai" className="nav-link fs-6">
+            <i class="bi bi-check-square-fill"></i>
+              Kustom Selesai
+            </NavLink>
+          </li>
         </ul>
 
         {user && user.role === "admin" && (
@@ -33,7 +45,7 @@ const Sidebar = () => {
             <li className="nav-item link__pages">
               <NavLink to="/users" className="nav-link fs-6">
                 <i className="bi bi-person-video2"></i>
-                Staff
+                Pegawai
               </NavLink>
             </li>
           </ul>

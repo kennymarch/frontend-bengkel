@@ -203,13 +203,6 @@ ul p {
   margin-top: 20px;
 }
 
-
-tbody {
-  display: block;
-  height: 60vh;
-  overflow-y: scroll;
-}
-
 th,td {
   border-left: 1px solid #72727250;
   border-right: 1px solid #72727250;
@@ -224,18 +217,6 @@ th,td {
   border-left: none;
   border-right: none;
   border-radius: 0;
-}
-
-thead, tbody tr {
-  display: table;
-  width: 100%;
-  table-layout: fixed;/* even columns width , fix width of table too*/
-}
-thead {
-  width: calc( 100% - 1.25em )/* scrollbar is average 1em/16px width, remove it from thead width */
-}
-table {
-  width: 1000px;
 }
 
 .label__kusus {
