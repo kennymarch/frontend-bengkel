@@ -48,8 +48,8 @@ const FormAddPemesanan = () => {
           </div>
 
           <div className="form-floating mb-3">
-            <input value={jenisKustom} onChange={(event) => setJenisKustom(event.target.value)} type="text" className="form-control" id="floatingInput" placeholder="Jenis Kustom" />
-            <label htmlFor="floatingInput">Jenis Kustom</label>
+            <input value={jenisKustom} onChange={(event) => setJenisKustom(event.target.value)} type="text" className="form-control" id="floatingInput" placeholder="Jenis Custom" />
+            <label htmlFor="floatingInput">Jenis Custom</label>
           </div>
           
           <div className="form-floating mb-3">

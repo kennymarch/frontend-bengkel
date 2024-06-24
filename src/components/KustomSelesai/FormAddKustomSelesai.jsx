@@ -38,7 +38,7 @@ const FormAddProduct = () => {
           'Content-Type': 'multipart/form-data'
         }
       })
-      navigate("/kustom-selesai")
+      navigate("/custom-selesai")
     } catch (error) {
        if(error) {
         setMsg(error.response.data.msg)
@@ -57,7 +57,7 @@ const FormAddProduct = () => {
   return (
     <div className="animation">
       <div className="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h3 className="h2">Tambah Kustom Selesai</h3>
+        <h3 className="h2">Tambah Custom Selesai</h3>
         <p>{msg}</p>
       </div>
       <form className="form p-4" onSubmit={saveProduct}>
@@ -71,8 +71,8 @@ const FormAddProduct = () => {
           </div>
 
           <div className="form-floating mb-3">
-            <input value={hargaAkir} onChange={(event) => setHargaAkir(event.target.value)} type="number" className="form-control" id="floatingInput" placeholder="Harga Akir" />
-            <label htmlFor="floatingInput">Harga Akir</label>
+            <input value={hargaAkir} onChange={(event) => setHargaAkir(event.target.value)} type="number" className="form-control" id="floatingInput" placeholder="Harga Akhir" />
+            <label htmlFor="floatingInput">Harga Akhir</label>
           </div>
 
           <div className="form-floating mb-3">
@@ -81,7 +81,7 @@ const FormAddProduct = () => {
           </div>
 
           <div className="foto mb-3">
-            <label htmlFor="floatingPassword">Masukkan Foto Hasil Kustom</label>
+            <label htmlFor="floatingPassword">Masukkan Foto Hasil Custom</label>
             <div>
               <div>
                 <label className="d-flex flex-column">

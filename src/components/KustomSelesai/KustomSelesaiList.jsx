@@ -49,10 +49,10 @@ const KustomSelesaiList = () => {
   return (
     <div className="animation">
       <div className="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h3 className="h2">Kustom Selesai</h3>
+        <h3 className="h2">Custom Selesai</h3>
         <div className="btn-toolbar mb-2 mb-md-0">
           <div className="btn-group me-2">
-          <Link to={"/kustom-selesai/add"} className="btn btn-success">Tambah Kustom Selesai</Link>
+          <Link to={"/custom-selesai/add"} className="btn btn-success">Tambah Custom Selesai</Link>
           </div>
         </div>
       </div>
@@ -77,7 +77,7 @@ const KustomSelesaiList = () => {
               <td>{kustomSelesai.harga_akhir}</td>
               <td>
                 <div className="btn-group me-2 button-td">
-                  <Link to={`/kustom-selesai/edit/${kustomSelesai.uuid}`} className="btn btn-warning" >Edit</Link>
+                  <Link to={`/custom-selesai/edit/${kustomSelesai.uuid}`} className="btn btn-warning" >Edit</Link>
                   <button className="btn btn-danger" onClick={() => deleteKustomSelesai(kustomSelesai.uuid)} >Hapus</button>
                 </div>
               </td>

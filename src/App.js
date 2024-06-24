@@ -24,9 +24,9 @@ function App() {
           <Route path="/pemesanan" element={<Pemesanan />} />
           <Route path="/pemesanan/add" element={<AddPemesanan />} />
           <Route path="/pemesanan/edit/:uuid" element={<EditPemesanan />} />
-          <Route path="/kustom-selesai" element={<KustomSelesai />} />
-          <Route path="/kustom-selesai/add" element={<AddKustomSelesai />} />
-          <Route path="/kustom-selesai/edit/:uuid" element={<EditKustomSelesai />} />
+          <Route path="/custom-selesai" element={<KustomSelesai />} />
+          <Route path="/custom-selesai/add" element={<AddKustomSelesai />} />
+          <Route path="/custom-selesai/edit/:uuid" element={<EditKustomSelesai />} />
         </Routes>
       </BrowserRouter>
     </div>

@@ -36,7 +36,7 @@ const PemesananList = () => {
           <tr>
             <th scope="col">No</th>
             <th scope="col">Nama Pemesan</th>
-            <th scope="col">Jenis Kustom</th>
+            <th scope="col">Jenis Custom</th>
             <th scope="col">Perkiraan Harga</th>
             <th scope="col">Status</th>
             <th scope="col">Telp</th>

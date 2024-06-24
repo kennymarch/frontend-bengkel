@@ -53,7 +53,7 @@ const FormUpdateKustomSelesai = () => {
         }
       })
       console.log(file)
-      navigate("/kustom-selesai")
+      navigate("/custom-selesai")
     } catch (error) {
        if(error) {
         setMsg(error.response.data.msg)
@@ -72,7 +72,7 @@ const FormUpdateKustomSelesai = () => {
   return (
     <div className="animation">
       <div className="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-        <h3 className="h2">Update Kustom Selesai</h3>
+        <h3 className="h2">Update Custom Selesai</h3>
         <p>{msg}</p>
       </div>
       <form className="form p-4" onSubmit={updateKustomSelesai} >
@@ -82,8 +82,8 @@ const FormUpdateKustomSelesai = () => {
             <h4>UUID Pemesan : {pemesananUuid}</h4>
           </div>
           <div className="form-floating mb-3">
-            <input value={hargaAkir} onChange={(event) => setHargaAkir(event.target.value)} type="number" className="form-control" id="floatingInput" placeholder="Harga Akir" />
-            <label htmlFor="floatingInput">Harga Akir</label>
+            <input value={hargaAkir} onChange={(event) => setHargaAkir(event.target.value)} type="number" className="form-control" id="floatingInput" placeholder="Harga Akhir" />
+            <label htmlFor="floatingInput">Harga Akhir</label>
           </div>
 
           <div className="form-floating mb-3">
@@ -92,7 +92,7 @@ const FormUpdateKustomSelesai = () => {
           </div>
 
           <div className="foto mb-3">
-            <label htmlFor="floatingPassword">Masukkan Foto Hasil Kustom</label>
+            <label htmlFor="floatingPassword">Masukkan Foto Hasil Custom</label>
             <div>
               <div>
                 <label className="d-flex flex-column">

@@ -22,13 +22,15 @@ const Dashboard = () => {
 
   return (
     <Layout>
-      <div className="animation dashboard">
-        <div className="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
-          <h2 className="h2">Dashboard</h2>
-          <div className="paragraft"></div>
-        </div>
-        <div className="content">
-          <Welcome />
+      <div className="animation dashboard gradasi w-100 h-100">
+        <div className="w-100 h-100 container_gradation">
+          <div className="d-flex justify-content-between flex-wrap flex-md-nowrap align-items-center pt-3 pb-2 mb-3 border-bottom">
+            <h2 className="h2">Dashboard</h2>
+            <div className="paragraft"></div>
+          </div>
+          <div className="content">
+            <Welcome />
+          </div>
         </div>
       </div>
     </Layout>

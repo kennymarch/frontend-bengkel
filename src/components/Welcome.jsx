@@ -8,10 +8,7 @@ const Welcome = () => {
 
   return (
     <div>
-      <h3 className="subtitle">
-        Selamat Datang Kembali <p className="fs-4 fw-bold">{user && user.name}</p>
-      </h3>
-
+      <h3 className="subtitle text-center">Custom Culture Motorcycle, Let's Ride to be Fun!</h3>
       <canvas id="myChart"></canvas>
     </div>
   );

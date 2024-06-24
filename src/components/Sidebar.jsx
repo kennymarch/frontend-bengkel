@@ -32,9 +32,9 @@ const Sidebar = () => {
             </NavLink>
           </li>
           <li className="nav-item link__pages">
-            <NavLink to="/kustom-selesai" className="nav-link fs-6">
+            <NavLink to="/custom-selesai" className="nav-link fs-6">
             <i class="bi bi-check-square-fill"></i>
-              Kustom Selesai
+              Custom Selesai
             </NavLink>
           </li>
         </ul>
